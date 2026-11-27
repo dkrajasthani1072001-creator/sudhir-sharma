@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>Stock Market By Sudhir Sharma | Join Telegram FREE</title>
+<style>
+*{margin:0;padding:0;box-sizing:border-box;font-family:Inter,system-ui,sans-serif;-webkit-tap-highlight-color:transparent}
+body{background:#020617;color:#fff;line-height:1.6;padding-bottom:85px}
+a{text-decoration:none;color:inherit}
+.container{max-width:1100px;margin:auto;padding:0 16px}
+header{position:sticky;top:0;background:rgba(2,6,23,.97);border-bottom:1px solid #1e293b;z-index:100}
+nav{display:flex;justify-content:space-between;align-items:center;padding:12px 0}
+.logo{font-size:15px;font-weight:900;line-height:1.2}.logo span{color:#22c55e}
+.btn{background:#229ED9;color:#fff;padding:13px 24px;border-radius:999px;font-weight:800;display:inline-flex;align-items:center;justify-content:center;gap:8px;box-shadow:0 8px 20px rgba(34,158,217,.35)}
+.btn:active{transform:scale(.97)}
+.btn-white{background:#fff;color:#0f172a}
+.ticker{background:#22c55e;color:#02120a;padding:8px 6px;text-align:center;font-weight:700;font-size:12px;white-space:nowrap;overflow:hidden}
+.hero{padding:30px 0 20px;text-align:center}
+.photo-wrap{position:relative;width:135px;height:135px;margin:0 auto 14px}
+.photo{width:135px;height:135px;border-radius:50%;object-fit:cover;border:4px solid #22c55e;box-shadow:0 0 0 5px rgba(34,197,94,.18);background:#1e293b}
+.tick{position:absolute;bottom:4px;right:4px;background:#229ED9;width:32px;height:32px;border-radius:50%;display:flex;align-items:center;justify-content:center;border:3px solid #020617}
+.badge{display:inline-block;background:#14532d;color:#4ade80;padding:6px 14px;border-radius:999px;font-size:12px;font-weight:700}
+h1{font-size:33px;line-height:1.15;margin:14px 0}h1 span{color:#22c55e}
+.hero p{color:#94a3b8;font-size:15px;margin:0 auto 10px;max-width:680px}
+.sub-box{display:flex;flex-direction:column;gap:10px;align-items:center;margin:18px 0}
+.sub-btn{background:#0f172a;border:1px solid #334155;padding:11px 16px;border-radius:999px;display:flex;align-items:center;gap:10px;font-size:14px;width:100%;max-width:330px;justify-content:center}
+.dot{width:10px;height:10px;background:#22c55e;border-radius:50%;animation:pulse 1.5s infinite}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(34,197,94,.6)}70%{box-shadow:0 0 0 8px rgba(34,197,94,0)}100%{box-shadow:0 0 0 0 rgba(34,197,94,0)}}
+.live{background:#22c55e;color:#04120a;padding:3px 9px;border-radius:999px;font-weight:900;font-size:12px}
+.main-cta{width:100%;max-width:340px;font-size:18px!important;padding:17px 20px!important;margin:6px auto}
+.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:12px;margin:24px 0}
+.stat{background:#0f172a;border:1px solid #1e293b;padding:16px 10px;border-radius:14px;text-align:center}.stat b{font-size:19px;color:#22c55e;display:block}.stat p{color:#94a3b8;font-size:12px}
+.section{padding:38px 0}.section h2{font-size:26px;text-align:center;margin-bottom:10px}.sub{text-align:center;color:#94a3b8;font-size:14px;margin:0 auto 24px;max-width:650px}
+.grid{display:grid;grid-template-columns:1fr;gap:14px}
+.card{background:#0f172a;border:1px solid #1e293b;padding:20px;border-radius:16px}.card h3{margin:8px 0 6px;font-size:17px}.card p{color:#94a3b8;font-size:14px}
+.proof{background:#0f172a;border:1px solid #1e293b;border-radius:16px;padding:20px;text-align:center}
+.join-box{background:linear-gradient(135deg,#229ED9,#16a34a);text-align:center;padding:32px 18px;border-radius:20px}.join-box h2{font-size:26px!important}.join-box p{margin:10px 0 18px;font-size:14px;font-weight:600}.join-box .btn{width:100%;max-width:320px}
+.join-photo{width:85px;height:85px;border-radius:50%;object-fit:cover;border:3px solid #fff;margin-bottom:10px}
+details{background:#0f172a;border:1px solid #1e293b;padding:16px;border-radius:12px;margin-bottom:10px}summary{cursor:pointer;font-weight:700;font-size:15px}details p{color:#94a3b8;margin-top:8px;font-size:14px}
+footer{padding:30px 16px 20px;color:#64748b;font-size:12px;text-align:center}
+.sticky{position:fixed;bottom:0;left:0;right:0;background:rgba(2,6,23,.97);border-top:1px solid #1e293b;padding:10px 14px 14px;z-index:200;display:flex;gap:10px;align-items:center}
+.sticky .left{flex:1}.sticky .left b{display:block;font-size:14px}.sticky .left span{font-size:12px;color:#94a3b8}.sticky .btn{padding:13px 20px;white-space:nowrap}
+@media(min-width:768px){body{padding-bottom:0}h1{font-size:50px}.photo-wrap,.photo{width:160px;height:160px}.sub-box{flex-direction:row;flex-wrap:wrap;justify-content:center}.sub-btn{width:auto}.stats{grid-template-columns:repeat(4,1fr)}.grid{grid-template-columns:repeat(3,1fr)}.section h2{font-size:36px}.sticky{display:none}.logo{font-size:19px}}
+</style>
+</head>
+<body>
+
+<div class="ticker">📈 NIFTY 24,812 ▲ &nbsp;•&nbsp; BANK NIFTY 51,290 ▲ &nbsp;•&nbsp; 🔴 LIVE: Sudhir Sharma Telegram</div>
+
+<header><div class="container"><nav>
+<div class="logo">STOCK MARKET<br><span>BY SUDHIR SHARMA</span></div>
+<a href="https://t.me/+nd84cpglUSIwODFl" target="_blank" class="btn">✈️ Join Karo</a>
+</nav></div></header>
+
+<section class="hero"><div class="container">
+<div class="photo-wrap">
+<img src="YOUR-PHOTO-LINK-HERE" class="photo" alt="Sudhir Sharma" onerror="this.src='https://via.placeholder.com/200x200/229ED9/ffffff?text=SS';this.onerror=null;">
+<div class="tick">✓</div>
+</div>
+<span class="badge">✅ OFFICIAL CHANNEL • SUDHIR SHARMA</span>
+<h1>Stock Market<br>By <span>Sudhir Sharma</span></h1>
+<p>Roz subah <b style="color:#fff">Nifty, Bank Nifty & Stock Calls</b> pao — Entry, Stop-Loss aur Target ke saath. Simple bhasha me.</p>
+
+<div class="sub-box">
+<div class="sub-btn"><span class="dot"></span><b>12,500+</b> Subscribers <span class="live">● LIVE</span></div>
+<div class="sub-btn">⭐ <b>4.9/5</b> Rating &nbsp; <span style="color:#facc15">★★★★★</span></div>
+<div class="sub-btn">👥 <b>1,284</b> log is hafte jude</div>
+</div>
+
+<a href="https://t.me/+nd84cpglUSIwODFl" target="_blank" class="btn main-cta">✈️ TELEGRAM PAR FREE JOIN KARO →</a>
+<small style="display:block;margin-top:10px;color:#64748b;font-size:12px">✓ 100% FREE &nbsp; • &nbsp; ✓ Koi Card Nahi &nbsp; • &nbsp; ✓ Kabhi Bhi Leave Karo</small>
+
+<div class="stats">
+<div class="stat"><b>Roz Subah</b><p>Pre-Market Plan</p></div>
+<div class="stat"><b>Live</b><p>Intraday Calls</p></div>
+<div class="stat"><b>Weekly</b><p>Swing Trades</p></div>
+<div class="stat"><b>100% Free</b><p>Seekhna + Calls</p></div>
+</div>
+</div></section>
+
+<section class="section"><div class="container">
+<h2>Channel Me Kya Milega?</h2>
+<p class="sub">Har din confidence ke saath trade karne ke liye sab kuch.</p>
+<div class="grid">
+<div class="card"><div style="font-size:28px">📊</div><h3>Roz Subah 8:30 AM Plan</h3><p>Nifty & Bank Nifty levels, market view aur aaj kya trade karna hai.</p></div>
+<div class="card"><div style="font-size:28px">🎯</div><h3>Live Intraday Calls</h3><p>Clear Entry, SL & Target. Koi confusion nahi.</p></div>
+<div class="card"><div style="font-size:28px">📈</div><h3>Swing Calls</h3><p>Har hafte high-quality swing trades — job walo ke liye best.</p></div>
+<div class="card"><div style="font-size:28px">📰</div><h3>News & Results</h3><p>Important news, IPO, results aur FII/DII data simple Hindi me.</p></div>
+<div class="card"><div style="font-size:28px">🎓</div><h3>Free Seekhna</h3><p>Price Action, Risk Management aur Psychology seekho.</p></div>
+<div class="card"><div style="font-size:28px">💬</div><h3>Sudhir Sharma Se Direct</h3><p>Update seedha Sudhir Sharma se — koi copy-paste nahi.</p></div>
+</div>
+</div></section>
+
+<section class="section"><div class="container">
+<h2>Recent Calls</h2>
+<p class="sub">Ye calls channel me live share kiye gaye the.</p>
+<div class="grid">
+<div class="proof"><p style="font-weight:800;color:#22c55e">✅ NIFTY CALL</p><p style="color:#94a3b8;font-size:14px;margin:8px 0">Entry → Target Hit</p><div style="background:#1e293b;padding:18px;border-radius:12px;font-size:24px">📈 Target Done</div></div>
+<div class="proof"><p style="font-weight:800;color:#22c55e">✅ BANK NIFTY CALL</p><p style="color:#94a3b8;font-size:14px;margin:8px 0">Entry → Target Hit</p><div style="background:#1e293b;padding:18px;border-radius:12px;font-size:24px">📈 Target Done</div></div>
+<div class="proof"><p style="font-weight:800;color:#22c55e">✅ SWING TRADE</p><p style="color:#94a3b8;font-size:14px;margin:8px 0">Swing → Target Hit</p><div style="background:#1e293b;padding:18px;border-radius:12px;font-size:24px">📈 Target Done</div></div>
+</div>
+</div></section>
+
+<section class="section"><div class="container">
+<h2>Members Kya Kehte Hai?</h2>
+<div class="grid">
+<div class="card"><p>⭐⭐⭐⭐⭐</p><p>"Sudhir sir ke calls se pehli baar mujhe trading me confidence aaya. SL ke saath trade karna seekha."</p><p><b>— Rohit, Jaipur</b></p></div>
+<div class="card"><p>⭐⭐⭐⭐⭐</p><p>"Roz subah ka plan game changer hai. Market khulne se pehle hi pata hota hai kya karna hai."</p><p><b>— Priya, Mumbai</b></p></div>
+<div class="card"><p>⭐⭐⭐⭐⭐</p><p>"Simple aur honest channel. Koi fake screenshot nahi, sirf real levels. Beginners ke liye best."</p><p><b>— Aman, Delhi</b></p></div>
+</div>
+</div></section>
+
+<section class="section"><div class="container">
+<h2>Aam Sawal</h2>
+<div style="max-width:750px;margin:20px auto 0">
+<details><summary>Kya channel FREE hai?</summary><p>Haan, join karna 100% FREE hai.</p></details>
+<details><summary>Main beginner hu, join kar sakta hu?</summary><p>Haan! Sab kuch simple bhasha me samjhaya jata hai.</p></details>
+<details><summary>Kitna paisa chahiye?</summary><p>Seekhne ke liye ₹0 se shuru karo (paper trading).</p></details>
+</div>
+</div></section>
+
+<section class="section"><div class="container">
+<div class="join-box">
+<img src="YOUR-PHOTO-LINK-HERE" class="join-photo" onerror="this.style.display='none'">
+<h2>Abhi Join Karo — Sudhir Sharma Ke Saath</h2>
+<p><b>12,500+ Subscribers</b> jud chuke hai • Kal subah 8:30 AM ka plan pao.</p>
+<a href="https://t.me/+nd84cpglUSIwODFl" target="_blank" class="btn btn-white">✈️ ABHI FREE ME JOIN KARO</a>
+<p style="font-size:12px;margin-top:14px">🔒 Koi Spam Nahi. Sirf Trading Updates.</p>
+</div>
+</div></section>
+
+<footer>
+<p><b style="color:#fff">STOCK MARKET BY SUDHIR SHARMA</b></p>
+<p style="margin-top:10px">Disclaimer: Trading in securities markets is subject to market risks. Read all related documents carefully before investing. Ye channel sirf educational purpose ke liye hai.</p>
+<p style="margin-top:10px">© 2026 Stock Market By Sudhir Sharma. All Rights Reserved.</p>
+<p style="margin-top:8px"><a href="https://t.me/+nd84cpglUSIwODFl" target="_blank" style="color:#229ED9;font-weight:700">👉 https://t.me/+nd84cpglUSIwODFl</a></p>
+</footer>
+
+<div class="sticky">
+<div class="left"><b>Sudhir Sharma</b><span>👥 12,500+ Subscribers • FREE</span></div>
+<a href="https://t.me/+nd84cpglUSIwODFl" target="_blank" class="btn">✈️ Join Free</a>
+</div>
+
+</body>
+</html>
